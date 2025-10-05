@@ -1,2 +1,2 @@
 # mes
-<img height="32px" alt="MES UTS" src="https://github.com/user-attachments/assets/673c27b6-ff34-4f72-9dca-d1c2cf2679cd" />
+<img height="32px" alt="MES UTS" src="https://github.com/user-attachments/assets/8b41a680-b152-4460-9a9d-c81ae47eacce" />
