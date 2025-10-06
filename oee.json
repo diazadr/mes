@@ -1,0 +1,3378 @@
+[
+    {
+        "id": "a1b2c3d4e5f6g7h8",
+        "type": "tab",
+        "label": "OEE - Machine Information, Work Order",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "time_tab_002",
+        "type": "tab",
+        "label": "OEE - Time Data",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "prod_tab_001",
+        "type": "tab",
+        "label": "OEE - Production Result",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "loss_tab_001",
+        "type": "tab",
+        "label": "OEE – Six Big Losses",
+        "disabled": false,
+        "info": "Input dan visualisasi Six Big Losses"
+    },
+    {
+        "id": "support_tab_001",
+        "type": "tab",
+        "label": "OEE – Supporting Data",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "downtime_tab_001",
+        "type": "tab",
+        "label": "OEE – Downtime & Loss Detail",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "kpi_tab_001",
+        "type": "tab",
+        "label": "OEE – Home",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e86b2a02af898d8d",
+        "type": "group",
+        "z": "a1b2c3d4e5f6g7h8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1a2b3c4d5e6f7g8h",
+            "b7c8d9e0f1a2b3c4",
+            "c7d8e9f0a1b2c3d4",
+            "e2f4c50f9b9d7e1c",
+            "9e4b9c96ac3bb2e4",
+            "f0d91100b6f2aee7",
+            "2f67e1d9cda5bcb9",
+            "408a005fde183db5",
+            "640e72a124a44a63",
+            "2d90d04bbe1c4a54",
+            "4e3062c219f752d8",
+            "9a87c5049e92678f"
+        ],
+        "x": 34,
+        "y": 79,
+        "w": 1332,
+        "h": 462
+    },
+    {
+        "id": "45ebc3cc6539e263",
+        "type": "group",
+        "z": "time_tab_002",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "time_form_002",
+            "time_calc_002",
+            "time_mysql_002",
+            "time_result_label",
+            "time_notify_002",
+            "4251e2f8547e1cbb",
+            "86c1a87da2d9f68a",
+            "c382851eb2737962",
+            "a170328db02ad567",
+            "eccc683af6ca9a6c"
+        ],
+        "x": 94,
+        "y": 559,
+        "w": 1212,
+        "h": 382
+    },
+    {
+        "id": "f675aa198b22eb67",
+        "type": "group",
+        "z": "prod_tab_001",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "prod_form_001",
+            "prod_calc_001",
+            "prod_mysql_001",
+            "prod_notify_001",
+            "4ac69a6f5e0f2fea",
+            "7c696e6b9815282d",
+            "d36e06a16fa32e4b",
+            "d1ecb5be2a48ba2b",
+            "d744cac578d5a9c5"
+        ],
+        "x": 14,
+        "y": 119,
+        "w": 1372,
+        "h": 262
+    },
+    {
+        "id": "2376b6d7db3ead71",
+        "type": "group",
+        "z": "loss_tab_001",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "loss_form_001",
+            "loss_insert_001",
+            "loss_mysql_001",
+            "loss_query_001",
+            "loss_mysql_002",
+            "3b263e707ce4e2db",
+            "44126097344e0745",
+            "41344b997fe6147f",
+            "fbf986f67b98bf9d"
+        ],
+        "x": 94,
+        "y": 119,
+        "w": 892,
+        "h": 262
+    },
+    {
+        "id": "b223e21f6151e060",
+        "type": "group",
+        "z": "support_tab_001",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3087e647013bdc47",
+            "support_form_001",
+            "support_insert_001",
+            "support_mysql_insert",
+            "support_query_001",
+            "support_mysql_fetch",
+            "3a3f58870f432a27",
+            "75cefb8177d05b54",
+            "788681dedce59f9e"
+        ],
+        "x": 194,
+        "y": 179,
+        "w": 1432,
+        "h": 302
+    },
+    {
+        "id": "7462a386aae818a2",
+        "type": "group",
+        "z": "downtime_tab_001",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "downtime_form_001",
+            "downtime_insert_001",
+            "downtime_mysql_insert",
+            "downtime_query_001",
+            "downtime_mysql_fetch",
+            "4901cdf8430c08fb",
+            "94a472c9bb28613d",
+            "1cf3f00736428361"
+        ],
+        "x": 124,
+        "y": 119,
+        "w": 1132,
+        "h": 282
+    },
+    {
+        "id": "7d78c043c4f74b6d",
+        "type": "group",
+        "z": "kpi_tab_001",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "db_query_kpi",
+            "func_kpi_calc",
+            "28830081fd6b2111",
+            "1bb73fe499f57440",
+            "8603cbcb4fea61e4",
+            "6fd32484b4000e07",
+            "d04d9e36ca0f0a03",
+            "82858b6fd517036f",
+            "46efe68a37582dc4",
+            "7e32f427df83dcc2",
+            "4d8206d65720b3a0",
+            "37e8b5b1c85a9188",
+            "a9a1bd6f07c200d3",
+            "b01a850cdb422c74",
+            "bce58f800af51ca1",
+            "26d21f94ccdd47c8"
+        ],
+        "x": 54,
+        "y": 99,
+        "w": 1332,
+        "h": 422
+    },
+    {
+        "id": "ui_base_oee",
+        "type": "ui-base",
+        "name": "OEE Dashboard",
+        "path": "/dashboard",
+        "appIcon": "https://github.com/user-attachments/assets/673c27b6-ff34-4f72-9dca-d1c2cf2679cd",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 5,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "theme_oee",
+        "type": "ui-theme",
+        "name": "OEE Theme",
+        "colors": {
+            "surface": "#194581",
+            "primary": "#007acc",
+            "bgPage": "#e6e6e6",
+            "groupBg": "#ffffff",
+            "groupOutline": "#194581"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "16px",
+            "groupGap": "16px",
+            "groupBorderRadius": "10px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "page_machine_wo",
+        "type": "ui-page",
+        "name": "OEE – Machine, Work Order",
+        "ui": "ui_base_oee",
+        "path": "/machine-workorder",
+        "icon": "factory",
+        "layout": "grid",
+        "theme": "theme_oee",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "grp_machine_wo",
+        "type": "ui-group",
+        "name": "Machine & Work Order",
+        "page": "page_machine_wo",
+        "width": "12",
+        "height": "",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "grid"
+    },
+    {
+        "id": "mysql_oee_db",
+        "type": "MySQLdatabase",
+        "name": "OEE Database Connection",
+        "host": "localhost",
+        "port": "3306",
+        "db": "oee_db",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "time_page_002",
+        "type": "ui-page",
+        "name": "OEE – Time Data",
+        "ui": "ui_base_oee",
+        "path": "/time",
+        "icon": "clock",
+        "layout": "grid",
+        "theme": "theme_oee",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "time_group_002",
+        "type": "ui-group",
+        "name": "Shift Time & Downtime",
+        "page": "time_page_002",
+        "width": "12",
+        "height": "",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "grid"
+    },
+    {
+        "id": "prod_page_001",
+        "type": "ui-page",
+        "name": "OEE – Production Result",
+        "ui": "ui_base_oee",
+        "path": "/production",
+        "icon": "chart-bar",
+        "layout": "grid",
+        "theme": "theme_oee",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "prod_group_001",
+        "type": "ui-group",
+        "name": "Production Result",
+        "page": "prod_page_001",
+        "width": "12",
+        "height": "",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "grid"
+    },
+    {
+        "id": "loss_page_001",
+        "type": "ui-page",
+        "name": "OEE – Six Big Losses",
+        "ui": "ui_base_oee",
+        "path": "/loss",
+        "icon": "alert-circle-outline",
+        "layout": "grid",
+        "theme": "theme_oee",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 5,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "loss_group_001",
+        "type": "ui-group",
+        "name": "Six Big Losses",
+        "page": "loss_page_001",
+        "width": "12",
+        "height": "",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "grid"
+    },
+    {
+        "id": "loss_group_002",
+        "type": "ui-group",
+        "name": "Loss Breakdown Chart",
+        "page": "loss_page_001",
+        "width": "6",
+        "order": 2,
+        "showTitle": true,
+        "visible": true,
+        "disabled": false,
+        "groupType": "grid"
+    },
+    {
+        "id": "support_page_001",
+        "type": "ui-page",
+        "name": "OEE – Supporting Data",
+        "ui": "ui_base_oee",
+        "path": "/supporting",
+        "icon": "database-outline",
+        "layout": "grid",
+        "theme": "theme_oee",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 6,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "support_group_001",
+        "type": "ui-group",
+        "name": "Maintenance & Notes",
+        "page": "support_page_001",
+        "width": "12",
+        "height": "",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "grid"
+    },
+    {
+        "id": "support_group_002",
+        "type": "ui-group",
+        "name": "Maintenance Logs & Breakdown",
+        "page": "support_page_001",
+        "width": "12",
+        "order": 2,
+        "showTitle": true,
+        "visible": true,
+        "disabled": false,
+        "groupType": "grid"
+    },
+    {
+        "id": "downtime_page_001",
+        "type": "ui-page",
+        "name": "OEE – Downtime & Loss",
+        "ui": "ui_base_oee",
+        "path": "/downtime",
+        "icon": "timer-off-outline",
+        "layout": "grid",
+        "theme": "theme_oee",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 7,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "downtime_group_001",
+        "type": "ui-group",
+        "name": "Downtime & Loss",
+        "page": "downtime_page_001",
+        "width": "12",
+        "height": "",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "grid"
+    },
+    {
+        "id": "downtime_group_002",
+        "type": "ui-group",
+        "name": "Downtime Logs & Chart",
+        "page": "downtime_page_001",
+        "width": "12",
+        "order": 2,
+        "showTitle": true,
+        "visible": true,
+        "disabled": false,
+        "groupType": "grid"
+    },
+    {
+        "id": "94041b83589a28e2",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "kpi_page_001",
+        "type": "ui-page",
+        "name": "OEE - Home",
+        "ui": "ui_base_oee",
+        "path": "/",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "theme_oee",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "kpi_group_001",
+        "type": "ui-group",
+        "name": "Perhitungan OEE",
+        "page": "kpi_page_001",
+        "width": "12",
+        "height": "",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "grid"
+    },
+    {
+        "id": "3f4a382ec46c03fa",
+        "type": "ui-group",
+        "name": "Home OEE Table",
+        "page": "kpi_page_001",
+        "width": "12",
+        "height": "",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "grid"
+    },
+    {
+        "id": "1a2b3c4d5e6f7g8h",
+        "type": "ui-form",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "name": "Machine & Work Order Form",
+        "group": "grp_machine_wo",
+        "label": "Machine & Work Order Information",
+        "order": 1,
+        "width": "12",
+        "height": "",
+        "options": [
+            {
+                "label": "Machine Group",
+                "key": "machine_group",
+                "type": "dropdown",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Machine No",
+                "key": "machine_no",
+                "type": "dropdown",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Machine Name",
+                "key": "machine_name",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Department / Area",
+                "key": "department",
+                "type": "dropdown",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Shift",
+                "key": "shift",
+                "type": "dropdown",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Operator Name",
+                "key": "operator_name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Operator ID",
+                "key": "operator_id",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Status",
+                "key": "status",
+                "type": "dropdown",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "WO No",
+                "key": "wo_no",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Item No",
+                "key": "item_no",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Product Description",
+                "key": "product_desc",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Order Quantity",
+                "key": "order_qty",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Cycle Time (Ideal)",
+                "key": "cycle_time",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Active Cavity",
+                "key": "active_cavity",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Due Date",
+                "key": "due_date",
+                "type": "date",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Start Date",
+                "key": "start_date",
+                "type": "date",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "End Date",
+                "key": "end_date",
+                "type": "date",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Order Status",
+                "key": "order_status",
+                "type": "dropdown",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Loading Time",
+                "key": "loading_time",
+                "type": "time",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Stop Time",
+                "key": "stop_time",
+                "type": "time",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Actual Quantity",
+                "key": "actual_qty",
+                "type": "number",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "machine_group": "",
+            "machine_no": "",
+            "machine_name": "",
+            "department": "",
+            "shift": "",
+            "operator_name": "",
+            "operator_id": "",
+            "status": "",
+            "wo_no": "",
+            "item_no": "",
+            "product_desc": "",
+            "order_qty": "",
+            "cycle_time": "",
+            "active_cavity": "",
+            "due_date": "",
+            "start_date": "",
+            "end_date": "",
+            "order_status": "",
+            "loading_time": "",
+            "stop_time": "",
+            "actual_qty": ""
+        },
+        "submit": "Save",
+        "cancel": "Reset",
+        "resetOnSubmit": false,
+        "topic": "machine_wo_form_submitted",
+        "topicType": "str",
+        "splitLayout": true,
+        "className": "",
+        "dropdownOptions": [
+            {
+                "dropdown": "machine_group",
+                "value": "INJECTION",
+                "label": "INJECTION"
+            },
+            {
+                "dropdown": "machine_group",
+                "value": "ASSEMBLY",
+                "label": "ASSEMBLY"
+            },
+            {
+                "dropdown": "machine_group",
+                "value": "PACKAGING",
+                "label": "PACKAGING"
+            },
+            {
+                "dropdown": "machine_no",
+                "value": "IM-01",
+                "label": "IM-01"
+            },
+            {
+                "dropdown": "machine_no",
+                "value": "IM-02",
+                "label": "IM-02"
+            },
+            {
+                "dropdown": "machine_no",
+                "value": "AM-01",
+                "label": "AM-01"
+            },
+            {
+                "dropdown": "machine_no",
+                "value": "PK-01",
+                "label": "PK-01"
+            },
+            {
+                "dropdown": "department",
+                "value": "Molding",
+                "label": "Molding Area"
+            },
+            {
+                "dropdown": "department",
+                "value": "Assembly",
+                "label": "Assembly Area"
+            },
+            {
+                "dropdown": "department",
+                "value": "Packaging",
+                "label": "Packaging Area"
+            },
+            {
+                "dropdown": "shift",
+                "value": "1",
+                "label": "Shift 1"
+            },
+            {
+                "dropdown": "shift",
+                "value": "2",
+                "label": "Shift 2"
+            },
+            {
+                "dropdown": "shift",
+                "value": "3",
+                "label": "Shift 3"
+            },
+            {
+                "dropdown": "status",
+                "value": "Running",
+                "label": "Running"
+            },
+            {
+                "dropdown": "status",
+                "value": "Idle",
+                "label": "Idle"
+            },
+            {
+                "dropdown": "status",
+                "value": "Breakdown",
+                "label": "Breakdown"
+            },
+            {
+                "dropdown": "status",
+                "value": "OFF",
+                "label": "OFF"
+            },
+            {
+                "dropdown": "order_status",
+                "value": "Planning",
+                "label": "Planning"
+            },
+            {
+                "dropdown": "order_status",
+                "value": "Running",
+                "label": "Running"
+            },
+            {
+                "dropdown": "order_status",
+                "value": "Completed",
+                "label": "Completed"
+            },
+            {
+                "dropdown": "order_status",
+                "value": "Hold",
+                "label": "Hold"
+            }
+        ],
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "b7c8d9e0f1a2b3c4"
+            ]
+        ]
+    },
+    {
+        "id": "b7c8d9e0f1a2b3c4",
+        "type": "function",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "name": "Handle Form Submit",
+        "func": "let data = msg.payload;\ndata.timestamp = new Date().toISOString();\n\nlet stored = global.get('machine_wo_data') || [];\nstored.push(data);\nglobal.set('machine_wo_data', stored);\n\nmsg.payload = data;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "c7d8e9f0a1b2c3d4",
+                "e2f4c50f9b9d7e1c"
+            ]
+        ]
+    },
+    {
+        "id": "c7d8e9f0a1b2c3d4",
+        "type": "ui-notification",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "ui": "ui_base_oee",
+        "position": "top center",
+        "colorDefault": false,
+        "color": "#007acc",
+        "displayTime": "3",
+        "showCountdown": false,
+        "outputs": 0,
+        "allowDismiss": false,
+        "dismissText": "",
+        "allowConfirm": false,
+        "confirmText": "",
+        "raw": false,
+        "className": "",
+        "name": "Success Notification",
+        "x": 700,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e2f4c50f9b9d7e1c",
+        "type": "function",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "name": "Prepare SQL Insert",
+        "func": "let d = msg.payload;\nif (!d) {\n    node.warn('Data kosong dari form');\n    return null;\n}\n\n\nfunction toSQLDate(value) {\n    if (!value || value.trim() === '') return 'NULL';\n    return `'${value}'`;\n}\n\nfunction safeStr(value) {\n    if (value === undefined || value === null || value === '') return 'NULL';\n    return `'${String(value).replace(/'/g, \"''\")}'`;\n}\n\nfunction safeNum(value) {\n    return value && !isNaN(value) ? value : 0;\n}\n\n// Buat query SQL\nlet sql = `\nINSERT INTO oee_machine_wo (\n    machine_group, machine_no, machine_name, department, shift,\n    operator_name, operator_id, status, loading_time, stop_time,\n    wo_no, item_no, product_desc, order_qty, actual_qty, cycle_time,\n    due_date, active_cavity, start_date, end_date, order_status, created_at\n) VALUES (\n    ${safeStr(d.machine_group)},\n    ${safeStr(d.machine_no)},\n    ${safeStr(d.machine_name)},\n    ${safeStr(d.department)},\n    ${safeStr(d.shift)},\n    ${safeStr(d.operator_name)},\n    ${safeStr(d.operator_id)},\n    ${safeStr(d.status)},\n    ${safeStr(d.loading_time)},\n    ${safeStr(d.stop_time)},\n    ${safeStr(d.wo_no)},\n    ${safeStr(d.item_no)},\n    ${safeStr(d.product_desc)},\n    ${safeNum(d.order_qty)},\n    ${safeNum(d.actual_qty)},\n    ${safeNum(d.cycle_time)},\n    ${toSQLDate(d.due_date)},\n    ${safeNum(d.active_cavity)},\n    ${toSQLDate(d.start_date)},\n    ${toSQLDate(d.end_date)},\n    ${safeStr(d.order_status)},\n    NOW()\n);`;\n\nmsg.topic = sql;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 200,
+        "wires": [
+            [
+                "9e4b9c96ac3bb2e4"
+            ]
+        ]
+    },
+    {
+        "id": "9e4b9c96ac3bb2e4",
+        "type": "mysql",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "mydb": "mysql_oee_db",
+        "name": "Insert to Database",
+        "x": 930,
+        "y": 200,
+        "wires": [
+            [
+                "f0d91100b6f2aee7",
+                "2f67e1d9cda5bcb9",
+                "4e3062c219f752d8"
+            ]
+        ]
+    },
+    {
+        "id": "f0d91100b6f2aee7",
+        "type": "ui-notification",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "ui": "ui_base_oee",
+        "position": "top right",
+        "colorDefault": false,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": false,
+        "outputs": 1,
+        "allowDismiss": false,
+        "dismissText": "",
+        "allowConfirm": false,
+        "confirmText": "",
+        "raw": false,
+        "className": "",
+        "name": "Save Success",
+        "x": 1160,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f67e1d9cda5bcb9",
+        "type": "debug",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "name": "SQL Query Output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1170,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "408a005fde183db5",
+        "type": "ui-table",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "group": "grp_machine_wo",
+        "name": "Table Machine, Work Order",
+        "label": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 920,
+        "y": 500,
+        "wires": [
+            [
+                "640e72a124a44a63"
+            ]
+        ]
+    },
+    {
+        "id": "640e72a124a44a63",
+        "type": "debug",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "name": "SQL Query Output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "2d90d04bbe1c4a54",
+        "type": "mysql",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "mydb": "mysql_oee_db",
+        "name": "",
+        "x": 1200,
+        "y": 380,
+        "wires": [
+            [
+                "408a005fde183db5"
+            ]
+        ]
+    },
+    {
+        "id": "4e3062c219f752d8",
+        "type": "function",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "name": "Call Function",
+        "func": "msg.topic = \"SELECT * FROM oee_machine_wo ORDER BY id DESC LIMIT 10;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 260,
+        "wires": [
+            [
+                "2d90d04bbe1c4a54"
+            ]
+        ]
+    },
+    {
+        "id": "9a87c5049e92678f",
+        "type": "inject",
+        "z": "a1b2c3d4e5f6g7h8",
+        "g": "e86b2a02af898d8d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 950,
+        "y": 320,
+        "wires": [
+            [
+                "4e3062c219f752d8"
+            ]
+        ]
+    },
+    {
+        "id": "time_form_002",
+        "type": "ui-form",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "name": "Shift Time & Downtime Form",
+        "group": "time_group_002",
+        "label": "Shift Time & Downtime",
+        "order": 1,
+        "width": "12",
+        "height": "",
+        "options": [
+            {
+                "label": "Shift Start Time",
+                "key": "shift_start",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Shift End Time",
+                "key": "shift_end",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Break Time (minutes)",
+                "key": "break_time",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Planned Stop Time (minutes)",
+                "key": "planned_stop",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Downtime (minutes)",
+                "key": "downtime",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Shift",
+                "key": "shift",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "shift_start": "",
+            "shift_end": "",
+            "break_time": "",
+            "planned_stop": "",
+            "downtime": "",
+            "shift": ""
+        },
+        "submit": "Calculate & Save",
+        "cancel": "Reset",
+        "resetOnSubmit": false,
+        "topic": "time_form_submitted",
+        "topicType": "str",
+        "splitLayout": true,
+        "className": "",
+        "dropdownOptions": [],
+        "x": 240,
+        "y": 600,
+        "wires": [
+            [
+                "time_calc_002"
+            ]
+        ]
+    },
+    {
+        "id": "time_calc_002",
+        "type": "function",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "name": "Compute Planned & Operation Time",
+        "func": "let d = msg.payload || {};\nif (!d.shift_start || !d.shift_end) {\n    node.warn('Shift start atau end belum diisi');\n    return null;\n}\n\n// Konversi Waktu ke Menit\nfunction toMinutes(t) {\n    if (!t || !t.includes(\":\")) return 0;\n    const [h, m] = t.split(':').map(Number);\n    return h * 60 + m;\n}\n\nlet start = toMinutes(d.shift_start);\nlet end = toMinutes(d.shift_end);\nlet totalShift = end - start;\nif (totalShift < 0) totalShift += 24 * 60;\n\nlet breakTime = Math.max(0, Number(d.break_time) || 0);\nlet plannedStop = Math.max(0, Number(d.planned_stop) || 0);\nlet downtime = Math.max(0, Number(d.downtime) || 0);\n\nif (breakTime + plannedStop > totalShift) {\n    node.warn(\"Break + Planned Stop lebih besar dari total shift!\");\n    breakTime = 0;\n    plannedStop = 0;\n}\n\nlet plannedTime = Math.max(0, totalShift - breakTime - plannedStop);\nlet operationTime = Math.max(0, plannedTime - downtime);\n\nlet uiMsg = {\n    payload: ` : Planned: ${plannedTime} min | Operation: ${operationTime} min`\n};\n\nconst shift = d.shift || 1;\nconst shiftStart = d.shift_start || \"00:00:00\";\nconst shiftEnd = d.shift_end || \"00:00:00\";\n\nlet sqlMsg = {\n  topic: `INSERT INTO oee_time_log\n  (shift, shift_start, shift_end, break_time, planned_stop, downtime, planned_time, operation_time, created_at)\n  VALUES ('${shift}', '${shiftStart}', '${shiftEnd}', ${breakTime}, ${plannedStop}, ${downtime}, ${plannedTime}, ${operationTime}, NOW());`\n};\n\nreturn [uiMsg, sqlMsg];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 680,
+        "wires": [
+            [
+                "time_result_label"
+            ],
+            [
+                "time_mysql_002"
+            ]
+        ]
+    },
+    {
+        "id": "time_mysql_002",
+        "type": "mysql",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "mydb": "mysql_oee_db",
+        "name": "Insert Time Data",
+        "x": 840,
+        "y": 720,
+        "wires": [
+            [
+                "time_notify_002",
+                "a170328db02ad567"
+            ]
+        ]
+    },
+    {
+        "id": "time_result_label",
+        "type": "ui-text",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "group": "time_group_002",
+        "order": 2,
+        "width": "12",
+        "height": "2",
+        "name": "Show Calculated Time",
+        "label": "Result",
+        "layout": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 860,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "time_notify_002",
+        "type": "ui-notification",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "ui": "ui_base_oee",
+        "position": "top right",
+        "colorDefault": false,
+        "color": "#007acc",
+        "displayTime": "3",
+        "showCountdown": false,
+        "outputs": 0,
+        "allowDismiss": false,
+        "raw": false,
+        "name": "Success Notification",
+        "x": 1100,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "4251e2f8547e1cbb",
+        "type": "ui-table",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "group": "time_group_002",
+        "name": "Table Time Data",
+        "label": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 980,
+        "y": 840,
+        "wires": [
+            [
+                "86c1a87da2d9f68a"
+            ]
+        ]
+    },
+    {
+        "id": "86c1a87da2d9f68a",
+        "type": "debug",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "name": "SQL Query Output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1170,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "c382851eb2737962",
+        "type": "mysql",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "mydb": "mysql_oee_db",
+        "name": "",
+        "x": 740,
+        "y": 840,
+        "wires": [
+            [
+                "4251e2f8547e1cbb"
+            ]
+        ]
+    },
+    {
+        "id": "a170328db02ad567",
+        "type": "function",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "name": "Call Function",
+        "func": "msg.topic = \"SELECT * FROM oee_time_log ORDER BY id DESC LIMIT 10;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 840,
+        "wires": [
+            [
+                "c382851eb2737962"
+            ]
+        ]
+    },
+    {
+        "id": "eccc683af6ca9a6c",
+        "type": "inject",
+        "z": "time_tab_002",
+        "g": "45ebc3cc6539e263",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 330,
+        "y": 900,
+        "wires": [
+            [
+                "a170328db02ad567"
+            ]
+        ]
+    },
+    {
+        "id": "prod_form_001",
+        "type": "ui-form",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "name": "Production Result Form",
+        "group": "prod_group_001",
+        "label": "Production Result Input",
+        "order": 1,
+        "width": "12",
+        "height": "",
+        "options": [
+            {
+                "label": "Total Output",
+                "key": "total_output",
+                "type": "number",
+                "required": true
+            },
+            {
+                "label": "Good Units",
+                "key": "good_units",
+                "type": "number",
+                "required": true
+            },
+            {
+                "label": "Defective Units",
+                "key": "defective_units",
+                "type": "number",
+                "required": true
+            },
+            {
+                "label": "Defect Type",
+                "key": "defect_type",
+                "type": "select",
+                "options": [
+                    "Scratch",
+                    "Crack",
+                    "Short",
+                    "Others"
+                ],
+                "required": false
+            },
+            {
+                "label": "Startup Rejects",
+                "key": "startup_rejects",
+                "type": "number",
+                "required": false
+            },
+            {
+                "label": "Shift",
+                "key": "shift",
+                "type": "select",
+                "options": [
+                    "Shift 1",
+                    "Shift 2",
+                    "Shift 3"
+                ],
+                "required": true
+            }
+        ],
+        "formValue": {
+            "total_output": "",
+            "good_units": "",
+            "defective_units": "",
+            "defect_type": "",
+            "startup_rejects": "",
+            "shift": ""
+        },
+        "submit": "Save Production Data",
+        "cancel": "Reset",
+        "resetOnSubmit": false,
+        "topic": "prod_form_submitted",
+        "splitLayout": true,
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "prod_calc_001"
+            ]
+        ]
+    },
+    {
+        "id": "prod_calc_001",
+        "type": "function",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "name": "Compute Yield & Save",
+        "func": "//  Ambil data dari form \nlet d = msg.payload || {};\n\nif (!d.total_output || !d.good_units) {\n    node.warn(\"Total Output dan Good Units wajib diisi!\");\n    return null;\n}\n\nlet total = Math.max(0, Number(d.total_output) || 0);\nlet good = Math.max(0, Number(d.good_units) || 0);\nlet defect = Math.max(0, Number(d.defective_units) || 0);\nlet startup = Math.max(0, Number(d.startup_rejects) || 0);\nlet shift = d.shift || \"\";\n\n// Validasi logika dasar\nif (good > total) {\n    node.warn(\"Good Units tidak boleh melebihi Total Output!\");\n    return null;\n}\nif (defect < 0 || startup < 0) {\n    node.warn(\"Nilai cacat tidak boleh negatif!\");\n    return null;\n}\n\n// Hitung nilai\nlet totalReject = defect + startup;\nlet yieldPercent = total > 0 ? Math.round((good / total) * 10000) / 100 : 0;\n\nlet sqlQuery = `\nINSERT INTO oee_production_log\n(total_output, good_units, defective_units, defect_type, startup_rejects, shift, total_reject, yield_percent, created_at)\nVALUES (${total}, ${good}, ${defect}, '${d.defect_type || ''}', ${startup}, '${shift}', ${totalReject}, ${yieldPercent}, NOW());\n`;\n\nlet sqlMsg = { topic: sqlQuery };\n\nreturn [uiMsg, sqlMsg];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 200,
+        "wires": [
+            [],
+            [
+                "prod_mysql_001"
+            ]
+        ]
+    },
+    {
+        "id": "prod_mysql_001",
+        "type": "mysql",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "mydb": "mysql_oee_db",
+        "name": "Insert Production Data",
+        "x": 660,
+        "y": 200,
+        "wires": [
+            [
+                "prod_notify_001",
+                "d1ecb5be2a48ba2b"
+            ]
+        ]
+    },
+    {
+        "id": "prod_notify_001",
+        "type": "ui-notification",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "ui": "ui_base_oee",
+        "position": "top right",
+        "colorDefault": false,
+        "color": "#007acc",
+        "displayTime": "3",
+        "showCountdown": false,
+        "outputs": 0,
+        "allowDismiss": false,
+        "raw": false,
+        "name": "Success Notification",
+        "x": 920,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "4ac69a6f5e0f2fea",
+        "type": "ui-table",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "group": "prod_group_001",
+        "name": "Table Production Result",
+        "label": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 1130,
+        "y": 340,
+        "wires": [
+            [
+                "7c696e6b9815282d"
+            ]
+        ]
+    },
+    {
+        "id": "7c696e6b9815282d",
+        "type": "debug",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "name": "SQL Query Output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1250,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "d36e06a16fa32e4b",
+        "type": "mysql",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "mydb": "mysql_oee_db",
+        "name": "",
+        "x": 840,
+        "y": 340,
+        "wires": [
+            [
+                "4ac69a6f5e0f2fea"
+            ]
+        ]
+    },
+    {
+        "id": "d1ecb5be2a48ba2b",
+        "type": "function",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "name": "Call Function",
+        "func": "msg.topic = \"SELECT * FROM oee_production_log ORDER BY id DESC LIMIT 10;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 340,
+        "wires": [
+            [
+                "d36e06a16fa32e4b"
+            ]
+        ]
+    },
+    {
+        "id": "d744cac578d5a9c5",
+        "type": "inject",
+        "z": "prod_tab_001",
+        "g": "f675aa198b22eb67",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 340,
+        "wires": [
+            [
+                "d1ecb5be2a48ba2b"
+            ]
+        ]
+    },
+    {
+        "id": "loss_form_001",
+        "type": "ui-form",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "name": "Loss Input Form",
+        "group": "loss_group_001",
+        "label": "Input Six Big Losses",
+        "order": 1,
+        "width": "12",
+        "options": [
+            {
+                "label": "Loss Category",
+                "key": "loss_category",
+                "type": "select",
+                "options": [
+                    "Availability Loss",
+                    "Performance Loss",
+                    "Quality Loss"
+                ],
+                "required": true
+            },
+            {
+                "label": "Loss Type",
+                "key": "loss_type",
+                "type": "select",
+                "options": [
+                    "Equipment Failure",
+                    "Setup & Adjustment",
+                    "Idling / Minor Stop",
+                    "Reduced Speed",
+                    "Process Defect",
+                    "Startup Loss"
+                ],
+                "required": true
+            },
+            {
+                "label": "Loss Duration (minutes)",
+                "key": "loss_duration",
+                "type": "number",
+                "required": true
+            },
+            {
+                "label": "Remark / Notes",
+                "key": "remark",
+                "type": "text",
+                "required": false
+            }
+        ],
+        "formValue": {},
+        "submit": "Save",
+        "cancel": "Cancel",
+        "topic": "loss_form_submitted",
+        "splitLayout": true,
+        "x": 260,
+        "y": 160,
+        "wires": [
+            [
+                "loss_insert_001"
+            ]
+        ]
+    },
+    {
+        "id": "loss_insert_001",
+        "type": "function",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "name": "Insert Loss to SQL",
+        "func": "let d = msg.payload;\nif (!d.loss_category || !d.loss_type) return null;\nmsg.topic = `INSERT INTO oee_loss_log (loss_category, loss_type, loss_duration, remark, created_at)\nVALUES ('${d.loss_category}', '${d.loss_type}', ${d.loss_duration || 0}, '${d.remark || ''}', NOW());`;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 160,
+        "wires": [
+            [
+                "loss_mysql_001",
+                "44126097344e0745"
+            ]
+        ]
+    },
+    {
+        "id": "loss_mysql_001",
+        "type": "mysql",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "mydb": "mysql_oee_db",
+        "name": "Insert Loss Record",
+        "x": 850,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "loss_query_001",
+        "type": "function",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "name": "Get All Loss Data",
+        "func": "msg.topic = 'SELECT * FROM oee_loss_log ORDER BY created_at DESC LIMIT 20;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 300,
+        "wires": [
+            [
+                "loss_mysql_002",
+                "41344b997fe6147f"
+            ]
+        ]
+    },
+    {
+        "id": "loss_mysql_002",
+        "type": "mysql",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "mydb": "mysql_oee_db",
+        "name": "Fetch Loss Records",
+        "x": 660,
+        "y": 260,
+        "wires": [
+            [
+                "3b263e707ce4e2db"
+            ]
+        ]
+    },
+    {
+        "id": "3b263e707ce4e2db",
+        "type": "ui-table",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "group": "loss_group_002",
+        "name": "Table Loss",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 890,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "44126097344e0745",
+        "type": "delay",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "loss_query_001"
+            ]
+        ]
+    },
+    {
+        "id": "41344b997fe6147f",
+        "type": "debug",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "fbf986f67b98bf9d",
+        "type": "inject",
+        "z": "loss_tab_001",
+        "g": "2376b6d7db3ead71",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 300,
+        "wires": [
+            [
+                "loss_query_001"
+            ]
+        ]
+    },
+    {
+        "id": "support_form_001",
+        "type": "ui-form",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "name": "Maintenance Input Form",
+        "group": "support_group_001",
+        "label": "Maintenance & Notes",
+        "order": 1,
+        "width": "12",
+        "height": "",
+        "options": [
+            {
+                "label": "Start Time",
+                "key": "start_time",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "End Time",
+                "key": "end_time",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Technician Name",
+                "key": "technician_name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Failure Type",
+                "key": "failure_type",
+                "type": "dropdown",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Issue Description",
+                "key": "issue_description",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Action Taken",
+                "key": "action_taken",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Remark",
+                "key": "remark",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Temperature (°C)",
+                "key": "temperature",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Humidity (%)",
+                "key": "humidity",
+                "type": "number",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "start_time": "",
+            "end_time": "",
+            "technician_name": "",
+            "failure_type": "",
+            "issue_description": "",
+            "action_taken": "",
+            "remark": "",
+            "temperature": "",
+            "humidity": ""
+        },
+        "submit": "Save",
+        "cancel": "Cancel",
+        "resetOnSubmit": false,
+        "topic": "support_form_submitted",
+        "topicType": "str",
+        "splitLayout": true,
+        "className": "",
+        "dropdownOptions": [
+            {
+                "dropdown": "failure_type",
+                "value": "Mechanical",
+                "label": "Mechanical"
+            },
+            {
+                "dropdown": "failure_type",
+                "value": "Electrical",
+                "label": "Electrical"
+            },
+            {
+                "dropdown": "failure_type",
+                "value": "Others",
+                "label": "Others"
+            }
+        ],
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "support_insert_001"
+            ]
+        ]
+    },
+    {
+        "id": "support_insert_001",
+        "type": "function",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "name": "Insert Supporting Data",
+        "func": "let d = msg.payload;\n\n// Fungsi untuk escape kutip tunggal\nfunction esc(str) {\n    if (!str) return \"\";\n    return String(str).replace(/'/g, \"\\\\'\");\n}\n\n// Ambil tanggal hari ini (YYYY-MM-DD)\nlet today = new Date().toISOString().split('T')[0];\nlet start = `${today} ${d.start_time}:00`;\nlet end = `${today} ${d.end_time}:00`;\n\n// Siapkan query\nmsg.topic = `\nINSERT INTO oee_supporting_log \n(start_time, end_time, technician_name, failure_type, issue_description, action_taken, remark, temperature, humidity, created_at)\nVALUES (\n  '${start}', \n  '${end}', \n  '${esc(d.technician_name)}', \n  '${d.failure_type}', \n  '${esc(d.issue_description)}', \n  '${esc(d.action_taken)}', \n  '${esc(d.remark)}', \n  ${d.temperature || 0}, \n  ${d.humidity || 0}, \n  NOW()\n);\n`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 260,
+        "wires": [
+            [
+                "support_mysql_insert"
+            ]
+        ]
+    },
+    {
+        "id": "support_mysql_insert",
+        "type": "mysql",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "mydb": "mysql_oee_db",
+        "name": "Insert Supporting Record",
+        "x": 850,
+        "y": 220,
+        "wires": [
+            [
+                "support_query_001",
+                "3087e647013bdc47"
+            ]
+        ]
+    },
+    {
+        "id": "support_query_001",
+        "type": "function",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "name": "Get Supporting Log",
+        "func": "msg.topic = 'SELECT * FROM oee_supporting_log ORDER BY created_at DESC LIMIT 20;';\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 300,
+        "wires": [
+            [
+                "support_mysql_fetch"
+            ]
+        ]
+    },
+    {
+        "id": "support_mysql_fetch",
+        "type": "mysql",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "mydb": "mysql_oee_db",
+        "name": "Fetch Supporting Data",
+        "x": 1220,
+        "y": 300,
+        "wires": [
+            [
+                "3a3f58870f432a27",
+                "75cefb8177d05b54"
+            ]
+        ]
+    },
+    {
+        "id": "3a3f58870f432a27",
+        "type": "ui-table",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "group": "support_group_002",
+        "name": "Table Supporting Data",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 1480,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3087e647013bdc47",
+        "type": "debug",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "75cefb8177d05b54",
+        "type": "debug",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1520,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "788681dedce59f9e",
+        "type": "inject",
+        "z": "support_tab_001",
+        "g": "b223e21f6151e060",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 790,
+        "y": 440,
+        "wires": [
+            [
+                "support_query_001"
+            ]
+        ]
+    },
+    {
+        "id": "downtime_form_001",
+        "type": "ui-form",
+        "z": "downtime_tab_001",
+        "g": "7462a386aae818a2",
+        "name": "Downtime Input Form",
+        "group": "downtime_group_001",
+        "label": "DOWNTIME & LOSS DETAIL",
+        "order": 1,
+        "width": "12",
+        "height": "",
+        "options": [
+            {
+                "label": "Downtime Category",
+                "key": "category",
+                "type": "dropdown",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Description",
+                "key": "description",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Duration (minutes)",
+                "key": "duration",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Impact Type",
+                "key": "impact",
+                "type": "dropdown",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Remark",
+                "key": "remark",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "category": "",
+            "description": "",
+            "duration": "",
+            "impact": "",
+            "remark": ""
+        },
+        "submit": "Save",
+        "cancel": "Cancel",
+        "resetOnSubmit": true,
+        "topic": "downtime_form_submitted",
+        "topicType": "str",
+        "splitLayout": true,
+        "className": "",
+        "dropdownOptions": [
+            {
+                "dropdown": "category",
+                "value": "Breakdown",
+                "label": "Breakdown"
+            },
+            {
+                "dropdown": "category",
+                "value": "Setup / Changeover",
+                "label": "Setup / Changeover"
+            },
+            {
+                "dropdown": "category",
+                "value": "Material Shortage",
+                "label": "Material Shortage"
+            },
+            {
+                "dropdown": "category",
+                "value": "Power Failure",
+                "label": "Power Failure"
+            },
+            {
+                "dropdown": "category",
+                "value": "Operator Delay",
+                "label": "Operator Delay"
+            },
+            {
+                "dropdown": "category",
+                "value": "Unplanned Stop",
+                "label": "Unplanned Stop"
+            },
+            {
+                "dropdown": "impact",
+                "value": "Downtime",
+                "label": "Downtime"
+            },
+            {
+                "dropdown": "impact",
+                "value": "Stop",
+                "label": "Stop"
+            },
+            {
+                "dropdown": "impact",
+                "value": "Delay",
+                "label": "Delay"
+            },
+            {
+                "dropdown": "impact",
+                "value": "Minor Stop",
+                "label": "Minor Stop"
+            }
+        ],
+        "x": 250,
+        "y": 160,
+        "wires": [
+            [
+                "downtime_insert_001"
+            ]
+        ]
+    },
+    {
+        "id": "downtime_insert_001",
+        "type": "function",
+        "z": "downtime_tab_001",
+        "g": "7462a386aae818a2",
+        "name": "Insert Downtime Data",
+        "func": "let d = msg.payload;\nmsg.topic = `INSERT INTO oee_downtime_log (category, description, duration, impact, remark) VALUES ('${d.category}', '${d.description}', ${d.duration}, '${d.impact}', '${d.remark || ''}');`;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 160,
+        "wires": [
+            [
+                "downtime_mysql_insert",
+                "94a472c9bb28613d"
+            ]
+        ]
+    },
+    {
+        "id": "downtime_mysql_insert",
+        "type": "mysql",
+        "z": "downtime_tab_001",
+        "g": "7462a386aae818a2",
+        "mydb": "mysql_oee_db",
+        "name": "Insert Downtime Record",
+        "x": 880,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "downtime_query_001",
+        "type": "function",
+        "z": "downtime_tab_001",
+        "g": "7462a386aae818a2",
+        "name": "Get Downtime Log",
+        "func": "msg.topic = 'SELECT * FROM oee_downtime_log ORDER BY created_at DESC LIMIT 20;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 280,
+        "wires": [
+            [
+                "downtime_mysql_fetch"
+            ]
+        ]
+    },
+    {
+        "id": "downtime_mysql_fetch",
+        "type": "mysql",
+        "z": "downtime_tab_001",
+        "g": "7462a386aae818a2",
+        "mydb": "mysql_oee_db",
+        "name": "Fetch Downtime Data",
+        "x": 880,
+        "y": 260,
+        "wires": [
+            [
+                "4901cdf8430c08fb"
+            ]
+        ]
+    },
+    {
+        "id": "4901cdf8430c08fb",
+        "type": "ui-table",
+        "z": "downtime_tab_001",
+        "g": "7462a386aae818a2",
+        "group": "downtime_group_002",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 1180,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "94a472c9bb28613d",
+        "type": "delay",
+        "z": "downtime_tab_001",
+        "g": "7462a386aae818a2",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 360,
+        "wires": [
+            [
+                "downtime_query_001"
+            ]
+        ]
+    },
+    {
+        "id": "1cf3f00736428361",
+        "type": "inject",
+        "z": "downtime_tab_001",
+        "g": "7462a386aae818a2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "downtime_query_001"
+            ]
+        ]
+    },
+    {
+        "id": "db_query_kpi",
+        "type": "mysql",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "mydb": "mysql_oee_db",
+        "name": "Query KPI Data",
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "func_kpi_calc",
+                "1bb73fe499f57440"
+            ]
+        ]
+    },
+    {
+        "id": "func_kpi_calc",
+        "type": "function",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "OEE Calculation",
+        "func": "let rows = msg.payload || [];\nif(rows.length === 0){\n\n    node.send({ topic:\"availability\", payload:0 });\n    node.send({ topic:\"performance\", payload:0 });\n    node.send({ topic:\"quality\", payload:0 });\n    node.send({ topic:\"oee\", payload:0 });\n    node.send({ topic:\"scrap_rate\", payload:0 });\n    node.send({ topic:\"mtbf\", payload:0 });\n    node.send({ topic:\"mttr\", payload:0 });\n    return null;\n}\n\n\nrows.forEach(d => {\n    let availability = d.planned_time > 0 ? (d.operation_time / d.planned_time) * 100 : 0;\n    let performance = d.operation_time > 0 ? ((d.cycle_time * d.total_output) / d.operation_time) * 100 : 0;\n    let quality = d.total_output > 0 ? (d.good_units / d.total_output) * 100 : 0;\n    let oee = (availability * performance * quality) / 10000;\n    let scrap_rate = d.total_output > 0 ? (d.defective_units / d.total_output) * 100 : 0;\n    let mtbf = d.failures > 0 ? d.operation_time / d.failures : 0;\n    let mttr = d.repairs > 0 ? d.downtime / d.repairs : 0;\n\n    node.send({ topic: \"availability\", payload: Number(availability.toFixed(2)) });\n    node.send({ topic: \"performance\", payload: Number(performance.toFixed(2)) });\n    node.send({ topic: \"quality\", payload: Number(quality.toFixed(2)) });\n    node.send({ topic: \"oee\", payload: Number(oee.toFixed(2)) });\n    node.send({ topic: \"scrap_rate\", payload: Number(scrap_rate.toFixed(2)) });\n    node.send({ topic: \"mtbf\", payload: Number(mtbf.toFixed(2)) });\n    node.send({ topic: \"mttr\", payload: Number(mttr.toFixed(2)) });\n});\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 240,
+        "wires": [
+            [
+                "46efe68a37582dc4",
+                "7e32f427df83dcc2",
+                "37e8b5b1c85a9188",
+                "a9a1bd6f07c200d3",
+                "b01a850cdb422c74"
+            ]
+        ]
+    },
+    {
+        "id": "28830081fd6b2111",
+        "type": "function",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "Get Function",
+        "func": "msg.topic = `\nSELECT \n   DATE(t.created_at) AS log_date,\n   t.shift,\n   MAX(t.created_at) AS last_created_at,\n   t.planned_time,\n   t.operation_time,\n   t.downtime,\n   w.cycle_time,\n   p.total_output,\n   p.good_units,\n   p.defective_units,\n   p.startup_rejects,\n   COUNT(s.id) AS failures,\n   COUNT(CASE WHEN s.action_taken IS NOT NULL THEN 1 END) AS repairs\nFROM oee_time_log t\nLEFT JOIN oee_production_log p \n   ON DATE(t.created_at) = DATE(p.created_at) \n   AND t.shift = p.shift\nLEFT JOIN oee_machine_wo w \n   ON DATE(t.created_at) BETWEEN w.start_date AND w.end_date\nLEFT JOIN oee_supporting_log s \n   ON DATE(t.created_at) = DATE(s.created_at)\nGROUP BY log_date, t.shift, t.planned_time, t.operation_time, t.downtime, w.cycle_time, p.total_output, p.good_units, p.defective_units, p.startup_rejects\nORDER BY last_created_at DESC\nLIMIT 1;\n`;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "db_query_kpi"
+            ]
+        ]
+    },
+    {
+        "id": "1bb73fe499f57440",
+        "type": "debug",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "Debug MySQL",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "8603cbcb4fea61e4",
+        "type": "ui-gauge",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "Availibility",
+        "group": "kpi_group_001",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Availability (%)",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0-80",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "81-89",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "90",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1140,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6fd32484b4000e07",
+        "type": "ui-gauge",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "Performance",
+        "group": "kpi_group_001",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Performance (%)",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80-94",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "95",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1010,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d04d9e36ca0f0a03",
+        "type": "ui-gauge",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "Quality",
+        "group": "kpi_group_001",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Quality (%)",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "95-98",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "99",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1020,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "82858b6fd517036f",
+        "type": "ui-gauge",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "OEE",
+        "group": "kpi_group_001",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "OEE (%)",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "60-85",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "85",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1030,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46efe68a37582dc4",
+        "type": "debug",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "Debug KPI Calculation",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7e32f427df83dcc2",
+        "type": "switch",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "availability",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 140,
+        "wires": [
+            [
+                "8603cbcb4fea61e4",
+                "4d8206d65720b3a0"
+            ]
+        ]
+    },
+    {
+        "id": "4d8206d65720b3a0",
+        "type": "debug",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "Debug Switch",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "37e8b5b1c85a9188",
+        "type": "switch",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "performance",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 220,
+        "wires": [
+            [
+                "6fd32484b4000e07",
+                "bce58f800af51ca1"
+            ]
+        ]
+    },
+    {
+        "id": "a9a1bd6f07c200d3",
+        "type": "switch",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "quality",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 280,
+        "wires": [
+            [
+                "d04d9e36ca0f0a03"
+            ]
+        ]
+    },
+    {
+        "id": "b01a850cdb422c74",
+        "type": "switch",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "oee",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 870,
+        "y": 320,
+        "wires": [
+            [
+                "82858b6fd517036f"
+            ]
+        ]
+    },
+    {
+        "id": "bce58f800af51ca1",
+        "type": "debug",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "Debug Switch",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "b654ce3f8d23d56f",
+        "type": "ui-template",
+        "z": "kpi_tab_001",
+        "group": "",
+        "page": "",
+        "ui": "ui_base_oee",
+        "name": "Waktu",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <!-- Teleporting user info to #app-bar-actions -->\n    <Teleport v-if=\"loaded\" to=\"#app-bar-actions\">\n        <div class=\"clock-display\">{{ formattedTime }}</div>\n    </Teleport>\n</template>\n\n<script>\n    export default {\n    data() {\n        return {\n            loaded: false,\n            currentTime: new Date(),\n        };\n    },\n    computed: {\n        formattedTime() {\n            return this.formatDate(this.currentTime);\n        }\n    },\n    mounted() {\n        this.loaded = true; // Pastikan teleport hanya dilakukan saat komponen siap\n        this.startClock();\n    },\n    beforeUnmount() {\n        clearInterval(this.clockInterval);\n    },\n    methods: {\n        startClock() {\n            this.clockInterval = setInterval(() => {\n                this.currentTime = new Date();\n            }, 1000);\n        },\n        formatDate(date) {\n            const year = date.getFullYear();\n            const month = String(date.getMonth() + 1).padStart(2, \"0\");\n            const day = String(date.getDate()).padStart(2, \"0\");\n            const hours = String(date.getHours()).padStart(2, \"0\");\n            const minutes = String(date.getMinutes()).padStart(2, \"0\");\n            const seconds = String(date.getSeconds()).padStart(2, \"0\");\n            return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n        }\n    }\n};\n</script>\n\n<style>\n    .clock-display {\n        margin: 5px 10px;\n        font-size: 24px;\n        font-weight: bold;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "widget:ui",
+        "className": "",
+        "x": 210,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26d21f94ccdd47c8",
+        "type": "inject",
+        "z": "kpi_tab_001",
+        "g": "7d78c043c4f74b6d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            [
+                "28830081fd6b2111"
+            ]
+        ]
+    },
+    {
+        "id": "0aa83f18d8aff4f1",
+        "type": "ui-template",
+        "z": "kpi_tab_001",
+        "group": "",
+        "page": "",
+        "ui": "ui_base_oee",
+        "name": "Header Logo",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <!-- Teleport the button to the #app-bar-actions area when mounted -->\n    <Teleport v-if=\"mounted\" to=\"#app-bar-title\">\n<img height=\"50px\" alt=\"MES UTS\" src=\"https://github.com/user-attachments/assets/7cdedccd-27a3-475a-92e6-57314e390310\" />\n    </Teleport>\n</template>\n\n<script>\n    export default {\n        data() {\n            return {\n                mounted: false\n            }\n        },\n        mounted() {\n            // Set mounted to true when the component is mounted\n            this.mounted = true\n        }\n    }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "widget:ui",
+        "className": "",
+        "x": 370,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b4e2a3cd13f5d8f9",
+        "type": "inject",
+        "z": "kpi_tab_001",
+        "name": "Trigger OEE Breakdown",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 5,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 780,
+        "wires": [
+            [
+                "d06e50e00b42791a"
+            ]
+        ]
+    },
+    {
+        "id": "d06e50e00b42791a",
+        "type": "function",
+        "z": "kpi_tab_001",
+        "name": "Query OEE Core Data",
+        "func": "msg.topic = `\nSELECT \n  t.planned_time, t.operation_time, t.downtime, t.planned_stop, t.break_time,\n  p.total_output, p.good_units, p.defective_units, p.startup_rejects,\n  w.cycle_time, w.machine_name\nFROM oee_time_log t\nLEFT JOIN oee_production_log p ON DATE(t.created_at) = DATE(p.created_at)\nLEFT JOIN oee_machine_wo w ON DATE(t.created_at) BETWEEN w.start_date AND w.end_date\nORDER BY t.created_at DESC LIMIT 1;`;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 580,
+        "y": 780,
+        "wires": [
+            [
+                "c9247ad504c17004"
+            ]
+        ]
+    },
+    {
+        "id": "c9247ad504c17004",
+        "type": "mysql",
+        "z": "kpi_tab_001",
+        "mydb": "mysql_oee_db",
+        "name": "Query Core OEE Data",
+        "x": 850,
+        "y": 780,
+        "wires": [
+            [
+                "6b1b3a8992efde2c"
+            ]
+        ]
+    },
+    {
+        "id": "6b1b3a8992efde2c",
+        "type": "function",
+        "z": "kpi_tab_001",
+        "name": "Sub-Node: Availability",
+        "func": "let d = msg.payload[0];\nif (!d) {\n    msg.payload = [];   // reset table\n    msg.availability_data = { planned_time:0, operation_time:0, downtime:0, availability:0 };\n    return msg;\n}\n\n\nlet planned_time = d.planned_time; // oee_time_log.planned_time\nlet operation_time = d.operation_time; // oee_time_log.operation_time\nlet downtime = d.downtime; // oee_time_log.downtime\n\nlet availability = planned_time > 0 ? (operation_time / planned_time) * 100 : 0;\n\nmsg.availability_data = {\n    planned_time: planned_time,\n    operation_time: operation_time,\n    downtime: downtime,\n    availability: availability\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 740,
+        "wires": [
+            [
+                "a817a49fd63b4ee1"
+            ]
+        ]
+    },
+    {
+        "id": "a817a49fd63b4ee1",
+        "type": "function",
+        "z": "kpi_tab_001",
+        "name": "Sub-Node: Performance",
+        "func": "let d = msg.payload[0];\nif (!d) {\n    msg.payload = [];   // reset table\n    msg.availability_data = { planned_time:0, operation_time:0, downtime:0, availability:0 };\n    return msg;\n}\n\nlet cycle_time = d.cycle_time; // oee_machine_wo.cycle_time\nlet total_output = d.total_output; // oee_production_log.total_output\nlet operation_time = d.operation_time; // oee_time_log.operation_time\n\nlet performance = operation_time > 0 ? ((cycle_time * total_output) / operation_time) * 100 : 0;\n\nmsg.performance_data = {\n    cycle_time: cycle_time,\n    total_output: total_output,\n    performance: performance\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 800,
+        "wires": [
+            [
+                "4c2d22c88f34b4e2"
+            ]
+        ]
+    },
+    {
+        "id": "4c2d22c88f34b4e2",
+        "type": "function",
+        "z": "kpi_tab_001",
+        "name": "Sub-Node: Quality",
+        "func": "let d = msg.payload[0];\nif (!d) {\n    msg.payload = [];   // reset table\n    msg.availability_data = { planned_time:0, operation_time:0, downtime:0, availability:0 };\n    return msg;\n}\n\nlet total_output = d.total_output; // oee_production_log.total_output\nlet good_units = d.good_units; // oee_production_log.good_units\nlet defective_units = d.defective_units; // oee_production_log.defective_units\nlet startup_rejects = d.startup_rejects; // oee_production_log.startup_rejects\n\nlet quality = total_output > 0 ? (good_units / total_output) * 100 : 0;\n\nmsg.quality_data = {\n    total_output: total_output,\n    good_units: good_units,\n    defective_units: defective_units,\n    startup_rejects: startup_rejects,\n    quality: quality\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 860,
+        "wires": [
+            [
+                "2d05448b4f6a63a0"
+            ]
+        ]
+    },
+    {
+        "id": "2d05448b4f6a63a0",
+        "type": "function",
+        "z": "kpi_tab_001",
+        "name": "Sub-Node: OEE Final Table",
+        "func": "\nlet a = msg.availability_data;\nlet p = msg.performance_data;\nlet q = msg.quality_data;\n\n// Ambil data antar sub-node\nif (!a || !p || !q) {\n  msg.payload = []; // reset table\n  return msg;\n}\n\n\nlet oee = (a.availability * p.performance * q.quality) / 10000;\n\nmsg.payload = [\n  { Komponen: 'Availability', SubKomponen: 'Planned Time', Nilai: (a.planned_time/60).toFixed(2), Satuan: 'menit', Sumber: 'oee_time_log.planned_time' },\n  { Komponen: 'Availability', SubKomponen: 'Operation Time', Nilai: (a.operation_time/60).toFixed(2), Satuan: 'menit', Sumber: 'oee_time_log.operation_time' },\n  { Komponen: 'Availability', SubKomponen: 'Downtime', Nilai: (a.downtime/60).toFixed(2), Satuan: 'menit', Sumber: 'oee_time_log.downtime' },\n  { Komponen: 'Availability', SubKomponen: 'Availability (%)', Nilai: a.availability.toFixed(2), Satuan: '%', Sumber: 'operation_time / planned_time * 100' },\n\n  { Komponen: 'Performance', SubKomponen: 'Cycle Time', Nilai: p.cycle_time, Satuan: 'detik/unit', Sumber: 'oee_machine_wo.cycle_time' },\n  { Komponen: 'Performance', SubKomponen: 'Total Output', Nilai: p.total_output, Satuan: 'unit', Sumber: 'oee_production_log.total_output' },\n  { Komponen: 'Performance', SubKomponen: 'Performance (%)', Nilai: p.performance.toFixed(2), Satuan: '%', Sumber: '(cycle_time * total_output) / operation_time * 100' },\n\n  { Komponen: 'Quality', SubKomponen: 'Good Units', Nilai: q.good_units, Satuan: 'unit', Sumber: 'oee_production_log.good_units' },\n  { Komponen: 'Quality', SubKomponen: 'Defective Units', Nilai: q.defective_units, Satuan: 'unit', Sumber: 'oee_production_log.defective_units' },\n  { Komponen: 'Quality', SubKomponen: 'Startup Rejects', Nilai: q.startup_rejects, Satuan: 'unit', Sumber: 'oee_production_log.startup_rejects' },\n  { Komponen: 'Quality', SubKomponen: 'Quality (%)', Nilai: q.quality.toFixed(2), Satuan: '%', Sumber: 'good_units / total_output * 100' },\n\n  { Komponen: 'OEE Total', SubKomponen: '-', Nilai: oee.toFixed(2), Satuan: '%', Sumber: '(Availability * Performance * Quality)/10000' }\n];\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 920,
+        "wires": [
+            [
+                "473371f324c2ae90"
+            ]
+        ]
+    },
+    {
+        "id": "473371f324c2ae90",
+        "type": "ui-table",
+        "z": "kpi_tab_001",
+        "group": "3f4a382ec46c03fa",
+        "name": "",
+        "label": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 1650,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a2339ebb6cc09ecf",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.28.0",
+            "node-red-node-mysql": "2.0.0",
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
