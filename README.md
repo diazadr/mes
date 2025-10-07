@@ -42,21 +42,15 @@ Designed for flexible deployment across **any production process** — from **as
 
 ### **Machine Work Order**
 
-<p align="center">
   <img src="https://github.com/user-attachments/assets/0c62a965-166f-4026-9471-2beebec5a603" alt="Production Input Dashboard" width="700" />
-</p>
 
 ### **OEE Time Data**
 
-<p align="center">
   <img src="https://github.com/user-attachments/assets/36cc0737-8038-4e6f-8220-d374d1828960" alt="Loss Monitoring Dashboard" width="700" />
-</p>
 
 ### **Production Result**
 
-<p align="center">
   <img src="https://github.com/user-attachments/assets/01697f77-237f-40bd-a9b6-32c141605801" alt="OEE Monitoring Dashboard" width="700" />
-</p>
 
 ---
 
