@@ -51,24 +51,11 @@ Designed for flexible deployment across **any production process** — from **as
 <p align="center">
   <img src="https://github.com/user-attachments/assets/36cc0737-8038-4e6f-8220-d374d1828960" alt="Loss Monitoring Dashboard" width="700" />
 </p>
-<img width="1919" height="890" alt="Screenshot 2025-10-06 105817" src="" />
 
 ### **Production Result**
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/01697f77-237f-40bd-a9b6-32c141605801" alt="OEE Monitoring Dashboard" width="700" />
-</p>
-
-### **Production Summary Dashboard**
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/demo-summary-dashboard.png" alt="Production Summary Dashboard" width="700" />
-</p>
-
-### **Maintenance & Tracking Dashboard**
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/demo-maintenance-dashboard.png" alt="Maintenance Tracking Dashboard" width="700" />
 </p>
 
 ---
