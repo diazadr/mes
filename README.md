@@ -1,4 +1,4 @@
-# ⚙️ OEE SYSTEM – GENERAL MANUAL INPUT (UNIVERSAL VERSION FOR NODE-RED 2.0)
+# OEE SYSTEM – GENERAL MANUAL INPUT (UNIVERSAL VERSION FOR NODE-RED 2.0)
 
 ![Project Status](https://img.shields.io/badge/status-completed-brightgreen)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
@@ -26,7 +26,7 @@ Designed for flexible deployment across **any production process** — from **as
 
 ## **System Architecture**
 
-### 🧬 **Technologies Used**
+### **Technologies Used**
 
 * **Node-RED 2.0+**
 * **MySQL Database**
@@ -38,154 +38,38 @@ Designed for flexible deployment across **any production process** — from **as
 
 ---
 
-## **System Workflow**
+## **Demo**
 
-### 🟢 1️⃣ INPUT SECTION – MAIN PRODUCTION DATA
+### **Machine Work Order**
 
-#### **A. MACHINE INFORMATION**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0c62a965-166f-4026-9471-2beebec5a603" alt="Production Input Dashboard" width="700" />
+</p>
 
-| Input Utama       | Sub-Input                                        | Keterangan            | Node Dashboard |
-| ----------------- | ------------------------------------------------ | --------------------- | -------------- |
-| Machine Group     | Production / Assembly / Packaging / CNC / Line A | Area atau grup mesin  | Dropdown       |
-| Machine No        | MC-01 / MC-02                                    | ID unik mesin         | Dropdown       |
-| Machine Name      | Machine Line 1                                   | Nama mesin / line     | Text input     |
-| Department / Area | Production Area / Finishing                      | Lokasi mesin          | Dropdown       |
-| Shift             | 1 / 2 / 3                                        | Shift kerja           | Dropdown       |
-| Operator Name     | Nama operator                                    | Nama pencatat data    | Text input     |
-| Operator ID       | NIP / ID                                         | Identifikasi operator | Text input     |
-| Status            | Running / Idle / Breakdown / Setup / Off         | Kondisi mesin terkini | Dropdown       |
-| Loading Time      | hh:mm:ss                                         | Waktu setup awal      | Time input     |
-| Stop Time         | hh:mm:ss                                         | Total waktu berhenti  | Time input     |
+### **OEE Time Data**
 
----
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/36cc0737-8038-4e6f-8220-d374d1828960" alt="Loss Monitoring Dashboard" width="700" />
+</p>
+<img width="1919" height="890" alt="Screenshot 2025-10-06 105817" src="" />
 
-#### **B. WORK ORDER / PRODUCTION INFORMATION**
+### **Production Result**
 
-| Input Utama         | Sub-Input             | Keterangan              | Node Dashboard |
-| ------------------- | --------------------- | ----------------------- | -------------- |
-| Work Order No       | WO20251005A           | Nomor order kerja       | Text input     |
-| Product Code        | PRD123456             | Kode produk             | Text input     |
-| Product Description | Product Name / Item   | Nama / deskripsi produk | Text input     |
-| Order Quantity      | 1000 unit             | Jumlah pesanan          | Number input   |
-| Actual Quantity     | 950 unit              | Jumlah aktual selesai   | Number input   |
-| Cycle Time (Ideal)  | 45 detik/unit         | Waktu ideal per produk  | Number input   |
-| Due Date            | 2025-10-10            | Target selesai          | Date picker    |
-| Start Date          | 2025-10-05            | Mulai produksi          | Date picker    |
-| End Date            | 2025-10-05            | Selesai produksi        | Date picker    |
-| Order Status        | Running / Completed   | Status kerja            | Dropdown       |
-| Department / Area   | Production / Assembly | Area kerja              | Dropdown       |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/01697f77-237f-40bd-a9b6-32c141605801" alt="OEE Monitoring Dashboard" width="700" />
+</p>
 
----
+### **Production Summary Dashboard**
 
-#### **C. PRODUCTION RESULT**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/demo-summary-dashboard.png" alt="Production Summary Dashboard" width="700" />
+</p>
 
-| Input Utama      | Sub-Input                     | Keterangan              | Node Dashboard |
-| ---------------- | ----------------------------- | ----------------------- | -------------- |
-| Total Output     | Total produk dihasilkan       | Auto / Manual input     | Number input   |
-| Good Units       | Produk lolos QC               | OK product              | Number input   |
-| Defective Units  | Produk cacat total            | NG product              | Number input   |
-| Defect Type      | Scratch / Crack / Short / etc | Jenis cacat             | Dropdown       |
-| Startup Rejects  | Produk cacat awal proses      | Reject awal mesin jalan | Number input   |
-| Output per Shift | Produksi tiap shift           | Shift 1/2/3             | Table input    |
+### **Maintenance & Tracking Dashboard**
 
----
-
-#### **D. TIME DATA**
-
-| Input Utama             | Sub-Input                          | Keterangan               | Node Dashboard |
-| ----------------------- | ---------------------------------- | ------------------------ | -------------- |
-| Shift Start Time        | Jam mulai                          | Waktu awal shift         | Time input     |
-| Shift End Time          | Jam selesai                        | Waktu akhir shift        | Time input     |
-| Break Time              | menit                              | Waktu istirahat          | Number input   |
-| Planned Stop Time       | menit                              | Waktu berhenti terjadwal | Number input   |
-| Planned Production Time | Total Shift - Break - Planned Stop | Waktu efektif            | Auto computed  |
-| Operation Time          | Planned - Downtime                 | Waktu berjalan aktual    | Auto computed  |
-
----
-
-### 🟣 2️⃣ LOSS SECTION – SIX BIG LOSSES (GENERAL)
-
-| Kategori          | Jenis Loss          | Contoh                        | Dampak     | Node Dashboard          |
-| ----------------- | ------------------- | ----------------------------- | ---------- | ----------------------- |
-| Availability Loss | Equipment Failure   | Mesin rusak / error           | Downtime   | Dropdown + Number input |
-| Availability Loss | Setup & Adjustment  | Ganti produk / tooling        | Downtime   | Dropdown + Number input |
-| Performance Loss  | Idling / Minor Stop | Sensor error / empty material | Speed loss | Dropdown + Number input |
-| Performance Loss  | Reduced Speed       | Mesin lambat dari ideal       | Speed loss | Dropdown + Number input |
-| Quality Loss      | Process Defect      | Produk gagal QC               | Reject     | Dropdown + Number input |
-| Quality Loss      | Startup Loss        | Reject awal mesin start       | Yield loss | Dropdown + Number input |
-
-📊 **Dashboard View:**
-
-* Loss Log Table
-* Pie Chart “Six Big Losses Breakdown”
-
----
-
-### 🟡 3️⃣ SUPPORTING DATA (MAINTENANCE & NOTES)
-
-| Input Utama        | Sub-Input                        | Keterangan                      | Node Dashboard |
-| ------------------ | -------------------------------- | ------------------------------- | -------------- |
-| Maintenance Record | Start / End Time                 | Waktu mulai & selesai perbaikan | Time input     |
-| Technician Name    | -                                | Nama teknisi                    | Text input     |
-| Failure Type       | Mechanical / Electrical / Others | Jenis gangguan                  | Dropdown       |
-| Production Notes   | Issue Description                | Catatan masalah produksi        | Text area      |
-| Action Taken       | Solusi                           | Tindakan perbaikan              | Text area      |
-| Remark             | -                                | Catatan tambahan                | Text area      |
-| Environment Data   | Temperature / Humidity           | Opsional                        | Number input   |
-
----
-
-### 🔵 4️⃣ DOWNTIME & LOSS DETAIL
-
-| Downtime Category  | Contoh                | Dampak     | Node Dashboard          |
-| ------------------ | --------------------- | ---------- | ----------------------- |
-| Breakdown          | Mesin rusak           | Downtime   | Dropdown + Number input |
-| Setup / Changeover | Ganti tooling / bahan | Downtime   | Dropdown + Number input |
-| Material Shortage  | Bahan habis / telat   | Stop       | Dropdown + Number input |
-| Power Failure      | Listrik padam         | Stop total | Dropdown + Number input |
-| Operator Delay     | Absen / meeting       | Delay      | Dropdown + Number input |
-| Unplanned Stop     | Sensor error / macet  | Minor stop | Dropdown + Number input |
-
----
-
-### 🧢 5️⃣ OEE CALCULATION
-
-| Komponen             | Rumus                                                   | Node Dashboard |
-| -------------------- | ------------------------------------------------------- | -------------- |
-| **Availability (%)** | (Operation Time ÷ Planned Production Time) × 100        | Gauge / Label  |
-| **Performance (%)**  | (Ideal Cycle Time × Total Units) ÷ Operation Time × 100 | Gauge / Label  |
-| **Quality (%)**      | (Good Units ÷ Total Units) × 100                        | Gauge / Label  |
-| **OEE (%)**          | Availability × Performance × Quality                    | Gauge utama    |
-
-📊 **Additional Outputs:**
-
-* Pie Chart: Six Big Losses Breakdown
-* Line Chart: OEE per Hari / Shift
-* Bar Chart: Downtime per Kategori
-
----
-
-### 🖥️ 6️⃣ DASHBOARD STRUCTURE (GENERAL LAYOUT)
-
-| Dashboard                            | Isi / Komponen                        | Jenis Node         |
-| ------------------------------------ | ------------------------------------- | ------------------ |
-| Dashboard 1 – Input Produksi         | Machine Info + WO + Operator + Output | Form + Button      |
-| Dashboard 2 – Loss Monitoring        | Loss Input + Chart Breakdown          | Table + Pie Chart  |
-| Dashboard 3 – OEE Monitoring         | Gauge A, P, Q, OEE                    | Gauge + Label      |
-| Dashboard 4 – Production Summary     | Tabel hasil & grafik tren             | Table + Line Chart |
-| Dashboard 5 – Maintenance & Tracking | Maintenance Log + Status Mesin        | Table + Indicator  |
-
----
-
-### ⚙️ 7️⃣ BACKEND SYSTEM (NODE-RED + MYSQL)
-
-| Komponen      | Node               | Fungsi                                             |
-| ------------- | ------------------ | -------------------------------------------------- |
-| Database      | MySQL Node         | Simpan semua data (machine, WO, result, loss, OEE) |
-| Kalkulasi OEE | Function Node      | Hitung A, P, Q, OEE otomatis                       |
-| Time Handling | Timestamp Node     | Simpan waktu input                                 |
-| Visualisasi   | Dashboard 2.0 Node | Gauge, Chart, Table                                |
-| Auto Save     | Inject + Change    | Simpan otomatis tiap shift                         |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/demo-maintenance-dashboard.png" alt="Maintenance Tracking Dashboard" width="700" />
+</p>
 
 ---
 
@@ -242,5 +126,3 @@ This project is **completed** and ready for deployment as a **universal OEE data
 ## **License**
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
-<img height="50px" alt="MES UTS" src="https://github.com/user-attachments/assets/7cdedccd-27a3-475a-92e6-57314e390310" />
