@@ -1,4 +1,4 @@
-# OEE SYSTEM – GENERAL MANUAL INPUT (UNIVERSAL VERSION FOR NODE-RED 2.0)
+# OEE SYSTEM – GENERAL MANUAL INPUT
 
 ![Project Status](https://img.shields.io/badge/status-completed-brightgreen)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
